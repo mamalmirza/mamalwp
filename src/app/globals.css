@@ -190,7 +190,7 @@
   .selected-work-info-div h1 {
     font-size: 48px;
     font-weight: 700;
-    margin: 0 0 0 0;
+    margin: 0 0 10px 0;
     line-height: 1.1;
     color: #333;
   }
@@ -298,7 +298,7 @@
   }
 
   .past-clients-wrapper {
-    padding: 5px 5px;
+    padding: 25px 5px 50px;
     max-width: 1200px;
     margin: 0 0 0 0;
     border-bottom: 1px solid #000;
