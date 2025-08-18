@@ -14,10 +14,10 @@ export default function Welcome() {
           </a>
           <nav role="navigation" className="nav-menu">
             <div className="nav-div-left">
-              <div className="nav-text">Projects</div>
-              <a href="/surfline" className="nav-text link">/ Terrwatch</a>
-              {/* <a href="/arena-club" className="nav-text link">/ ARENA CLUB</a>
-              <a href="/trackr" className="nav-text link last">/ TRACKR</a> */}
+              <div className="nav-text">CASE STUDIES</div>
+              <a href="/surfline" className="nav-text link">/ SURFLINE</a>
+              <a href="/arena-club" className="nav-text link">/ ARENA CLUB</a>
+              <a href="/trackr" className="nav-text link last">/ TRACKR</a>
             </div>
           </nav>
         </div>
@@ -26,8 +26,8 @@ export default function Welcome() {
       {/* Hero Section */}
       <section className="hero-wrapper">
         <div className="hero-div">
-          <h1 className="hero-text">The Projects &</h1>
-          <h1 className="hero-text">Ideas of Mamal</h1>
+          <h1 className="hero-text">The Product Design</h1>
+          <h1 className="hero-text">Work of Dan Machado</h1>
         </div>
       </section>
 
@@ -134,20 +134,15 @@ export default function Welcome() {
       {/* Footer */}
       <div className="footer-container">
         <div className="footer-contact-div">
-
-        <a href="mailto:mirzaei.mohammadreza1997@gmail.com"  target="_blank" rel="noopener noreferrer" className="footer-link-block">
-            <div className="social-link">Email</div>
-          </a>
-
-
-
           <a href="https://www.linkedin.com/in/mohammad-reza-mirzaei-masc-a9a2b213b" target="_blank" rel="noopener noreferrer" className="footer-link-block">
             <div className="social-link">LinkedIn</div>
           </a>
-          
-          <a href="https://github.com/mamalmirza" target="_blank" rel="noopener noreferrer" className="footer-link-block last">
-            <div className="social-link">Github</div>
+          {/* <a href="https://dribbble.com/danmachado" target="_blank" rel="noopener noreferrer" className="footer-link-block">
+            <div className="social-link">Dribbble</div>
           </a>
+          <a href="https://www.behance.net/danmachado" target="_blank" rel="noopener noreferrer" className="footer-link-block last">
+            <div className="social-link">Behance</div>
+          </a> */}
         </div>
       </div>
     </>
