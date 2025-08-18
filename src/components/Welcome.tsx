@@ -51,11 +51,11 @@ export default function Welcome() {
                   <div className="selected-work-info-text">
                   A forest monitoring web application that uses interactive maps and satellite data to track forest health, detect deforestation, and provide clear visual insights for sustainable decision-making
                   </div>
-                  <a href="/surfline" className="selected-work-button">Take a look</a>
+                  <a href="/terrawatch" className="selected-work-button">Take a look</a>
                 </div>
               </div>
               <div className="column-2">
-                <a href="/surfline" className="link-block link-block-surfline"></a>
+                <a href="/terrawatch" className="link-block link-block-terrawatch"></a>
               </div>
             </div>
           </div>
