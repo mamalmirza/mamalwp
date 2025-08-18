@@ -118,9 +118,10 @@ export default function Welcome() {
             </div>
             <div className="about-text-div">
               <p className="about-text">
-                Father of two, lover of pixel art, web3 enthusiast, amateur pizza maker<br /><br />
-                16+ years of experience designing stuff for screens. A strong, structured, efficient, detail- and impact-oriented digital designer, with focus on UI/UX design.<br /><br />
-                Based in Orange County, California
+              Lover of video games, robotics enthusiast, aspiring marathoner, and photography hobbyist.<br /><br />
+              With 5+ years of experience solving complex problems, I’m a detail- and impact-oriented engineer focused on robotics and AI. I thrive on structured, efficient solutions that make a real difference.<br /><br />
+              Based in Burnaby, British Columbia.
+
               </p>
             </div>
           </div>
