@@ -1,4 +1,7 @@
 import React from 'react'
+// ... existing code ...
+import Image from 'next/image';
+// ... existing code ...
 
 export default function Welcome() {
   return (
@@ -110,9 +113,9 @@ export default function Welcome() {
           <div className="about-content-div">
             <div className="pfp-div">
               <img 
-                src="https://cdn.prod.website-files.com/64daf5c0c154912f54a34b6e/64db0023bf49c009ffe8fad8_ReefWalk.png" 
+                src="/images/img.jpg" 
                 loading="lazy" 
-                alt="Dan Machado and child walking on wooden boardwalk surrounded by trees and sandy dunes" 
+                alt="Image I took in Oslo, Norway" 
                 className="pfp-img"
               />
             </div>
