@@ -137,7 +137,7 @@ export default function Welcome() {
       <section className="about-container">
         
           <div className="header-div full-width">
-            <h5 className="heading-2">● Companies I Worked With</h5>
+            <h5 className="heading-2">● Companies Colaborated With</h5>
           </div>
           
           <div className="client-list">
