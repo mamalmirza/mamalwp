@@ -10,14 +10,14 @@ export default function Welcome() {
       <div data-collapse="small" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" className="navbar">
         <div className="nav-container">
           <a href="/" aria-current="page" className="logo" aria-label="home">
-            <div className="name-text">DAN MACHADO</div>
+            <div className="name-text">Mohammad Reza Mirzaei</div>
           </a>
           <nav role="navigation" className="nav-menu">
             <div className="nav-div-left">
-              <div className="nav-text">CASE STUDIES</div>
-              <a href="/surfline" className="nav-text link">/ SURFLINE</a>
-              <a href="/arena-club" className="nav-text link">/ ARENA CLUB</a>
-              <a href="/trackr" className="nav-text link last">/ TRACKR</a>
+              <div className="nav-text">Projects</div>
+              <a href="/terrawatch" className="nav-text link">/ TERRAWATCH</a>
+              {/* <a href="/arena-club" className="nav-text link">/ ARENA CLUB</a>
+              <a href="/trackr" className="nav-text link last">/ TRACKR</a> */}
             </div>
           </nav>
         </div>
@@ -26,8 +26,8 @@ export default function Welcome() {
       {/* Hero Section */}
       <section className="hero-wrapper">
         <div className="hero-div">
-          <h1 className="hero-text">The Product Design</h1>
-          <h1 className="hero-text">Work of Dan Machado</h1>
+          <h1 className="hero-text">The Projects &</h1>
+          <h1 className="hero-text">Ideas of Me</h1>
         </div>
       </section>
 
@@ -41,14 +41,14 @@ export default function Welcome() {
             <div className="selected-work-column">
               <div className="column-1">
                 <div className="selected-work-heading-div">
-                  <h5 className="heading-2">● CASE STUDY 01</h5>
+                  <h5 className="heading-2">● PROJECT 01</h5>
                 </div>
                 <div className="selected-work-info-div">
-                  <h1>Surfline</h1>
+                  <h1>Terrawatch</h1>
                   <div className="selected-work-info-text">
-                    I led the redesign of a popular surf forecast product, enhancing user experience and engagement through innovative design solutions
+                  A forest monitoring web application that uses interactive maps and satellite data to track forest health, detect deforestation, and provide clear visual insights for sustainable decision-making
                   </div>
-                  <a href="/surfline" className="selected-work-button">VIEW CASE STUDY</a>
+                  <a href="/surfline" className="selected-work-button">Take a look</a>
                 </div>
               </div>
               <div className="column-2">
@@ -58,7 +58,7 @@ export default function Welcome() {
           </div>
 
           {/* Case Study 02 - Arena Club */}
-          <div className="selected-work-wrapper">
+          {/* <div className="selected-work-wrapper">
             <div className="selected-work-column">
               <div className="column-1">
                 <div className="selected-work-heading-div">
@@ -76,10 +76,10 @@ export default function Welcome() {
                 <a href="/arena-club" className="link-block link-block-arena-club"></a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Case Study 03 - TrackR */}
-          <div className="selected-work-wrapper">
+          {/* <div className="selected-work-wrapper">
             <div className="selected-work-column">
               <div className="column-1">
                 <div className="selected-work-heading-div">
@@ -97,7 +97,7 @@ export default function Welcome() {
                 <a href="/trackr" className="link-block link-block-trackr"></a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -134,15 +134,19 @@ export default function Welcome() {
       {/* Footer */}
       <div className="footer-container">
         <div className="footer-contact-div">
+
+          <a href="mailto:mirzaei.mohammadreza1997@gmail.com" target="_blank" rel="noopener noreferrer" className="footer-link-block">
+            <div className="social-link">Email</div>
+          </a>
+
+
           <a href="https://www.linkedin.com/in/mohammad-reza-mirzaei-masc-a9a2b213b" target="_blank" rel="noopener noreferrer" className="footer-link-block">
             <div className="social-link">LinkedIn</div>
           </a>
-          {/* <a href="https://dribbble.com/danmachado" target="_blank" rel="noopener noreferrer" className="footer-link-block">
-            <div className="social-link">Dribbble</div>
+          
+          <a href="https://github.com/mamalmirza" target="_blank" rel="noopener noreferrer" className="footer-link-block last">
+            <div className="social-link">Github</div>
           </a>
-          <a href="https://www.behance.net/danmachado" target="_blank" rel="noopener noreferrer" className="footer-link-block last">
-            <div className="social-link">Behance</div>
-          </a> */}
         </div>
       </div>
     </>
