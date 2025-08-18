@@ -132,23 +132,12 @@ export default function Welcome() {
       </section>
 
       
-        {/* Past Brands Worked With Section */}
-      {/* <section className="past-clients-wrapper">
-          <div className="past-clients-div">
-              <div className="header-div full-width">
-      <h5 className="heading-2">● Past Brands Worked With</h5>
-              </div>
-              <div className="client-list">
-      <h1 className="client-text">
-        Arena Club, Surfline, Vizio, DirectTV, Last.FM, TrackR, Vice, Pear Sports, Norton, Gyft, Vybe
-      </h1>
-              </div>
-           </div>
-      </section> */}
+      {/* Past Brands Worked With Section */}
+      
       <section className="about-container">
         
           <div className="header-div full-width">
-            <h5 className="heading-2">● Companies Worked With</h5>
+            <h5 className="heading-2">● Companies I Worked With</h5>
           </div>
           
           <div className="client-list">
