@@ -60,6 +60,10 @@ export default function Welcome() {
             </div>
           </div>
 
+
+
+
+
           {/* Case Study 02 - Arena Club */}
           {/* <div className="selected-work-wrapper">
             <div className="selected-work-column">
@@ -134,7 +138,7 @@ export default function Welcome() {
       
       {/* Past Brands Worked With Section */}
       
-      <section className="about-container">
+      <section className="past-clinets-container">
         
           <div className="header-div full-width">
             <h5 className="heading-2">● Companies Colaborated With</h5>

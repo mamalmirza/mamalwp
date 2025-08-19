@@ -246,9 +246,10 @@
   }
 
   .about-container {
-    padding: 50px 5px 0px;
+    padding: 50px 5px 50px;
     max-width: 1200px;
     margin: 0 auto;
+    border-bottom: 1px solid #000; /* 🔥 add divider */
   }
 
   .about-div {
@@ -295,6 +296,13 @@
     color: #333;
     margin: 0;
     text-align: justify;
+  }
+
+  .past-clinets-container {
+    padding: 50px 0px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border-bottom: 1px solid #000; 🔥 add divider */
   }
 
   .past-clients-wrapper {
