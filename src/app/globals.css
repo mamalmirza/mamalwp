@@ -107,6 +107,22 @@
     color: #333;
   }
 
+  .hero-wrapper-center {
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: center;     /* vertical centering */
+    height: calc(100vh - 80px);           /* full viewport height */
+    text-align: center;
+    border-bottom: none;
+    padding: 0 20px;         /* optional horizontal padding */
+  }
+  
+  .hero-div-center {
+    max-width: 800px;        /* optional: constrain width */
+  }
+  
+  
+
   .hero-wrapper-test {
     padding: 0 20px 80px;
     text-align: center;
