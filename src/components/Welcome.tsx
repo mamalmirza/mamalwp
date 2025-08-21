@@ -18,7 +18,7 @@ export default function Welcome() {
           <nav role="navigation" className="nav-menu">
             <div className="nav-div-left">
               <div className="nav-text">Projects</div>
-              <a href="/terrawatch" className="nav-text link">/ TERRAWATCH</a>
+              <a href="https://terrawatch.a16.at" className="nav-text link" target="_blank" rel="noopener noreferrer">/ TERRAWATCH</a>
               {/* <a href="/arena-club" className="nav-text link">/ ARENA CLUB</a>
               <a href="/trackr" className="nav-text link last">/ TRACKR</a> */}
             </div>
@@ -51,11 +51,11 @@ export default function Welcome() {
                   <div className="selected-work-info-text">
                   A forest monitoring web application that uses interactive maps and satellite data to track forest health, detect deforestation, and provide clear visual insights for sustainable decision-making
                   </div>
-                  <a href="/terrawatch" className="selected-work-button">Take a look</a>
+                  <a href="https://terrawatch.a16.at" className="selected-work-button" target="_blank" rel="noopener noreferrer">Take a look</a>
                 </div>
               </div>
               <div className="column-2">
-                <a href="/terrawatch" className="link-block link-block-terrawatch"></a>
+                <a href="https://terrawatch.a16.at" className="link-block link-block-terrawatch" target="_blank" rel="noopener noreferrer"></a>
               </div>
             </div>
           </div>
