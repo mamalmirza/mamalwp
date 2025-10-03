@@ -127,7 +127,7 @@ export default function Welcome() {
               <p className="about-text">
               Lover of video games, robotics enthusiast, aspiring marathoner, and photography hobbyist.<br /><br />
               With 5+ years of experience solving complex problems, I’m a detail- and impact-oriented engineer focused on robotics and AI. I thrive on structured, efficient solutions that make a real difference.<br /><br />
-              Based in Burnaby, British Columbia.
+              Based in Regina, Saskatchewan.
 
               </p>
             </div>
